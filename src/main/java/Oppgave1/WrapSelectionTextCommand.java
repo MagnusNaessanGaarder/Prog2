@@ -14,6 +14,9 @@ public class WrapSelectionTextCommand extends WrapTextCommand {
 
   @Override
   public String execute(String text) {
-      return text.replace(selection, super.execute(selection));
+    if (text == null || text.isEmpty()) {
+      throw new IllegalArgumentException("Illegal Argument: Text cannot be null or empty");
+    }
+    return text.replace(selection, super.execute(selection));
   }
 }
