@@ -7,11 +7,17 @@ public class WrapLinesTextCommand extends WrapTextCommand {
 
   @Override
   public String execute(String text) {
+    if (text == null || text.isEmpty()) {
+      throw new IllegalArgumentException("Illegal Argument: Text cannot be null or empty");
+    }
+
     String[] lines = text.split("\n");
     StringBuilder sb = new StringBuilder();
-    for (String line : lines) {
-      sb.append(super.execute(line));
-      sb.append("\n");
+    for (int i = 0; i < lines.length; i++) {
+      sb.append(super.execute(lines[i]));
+      if (!(i == lines.length - 1)) {
+        sb.append("\n");
+      }
     }
     return sb.toString();
   }
