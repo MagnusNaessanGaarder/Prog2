@@ -1,4 +1,4 @@
-package Oppgave1;
+package Oppgave1.replace;
 
 public class ReplaceFirstTextCommand extends ReplaceTextCommand {
   public ReplaceFirstTextCommand(String target, String replacement) {

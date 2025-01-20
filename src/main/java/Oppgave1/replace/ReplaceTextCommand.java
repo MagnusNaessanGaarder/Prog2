@@ -1,6 +1,8 @@
-package Oppgave1;
+package Oppgave1.replace;
 
-class ReplaceTextCommand implements TextCommand {
+import Oppgave1.TextCommand;
+
+public class ReplaceTextCommand implements TextCommand {
     protected String target;
     protected String replacement;
 

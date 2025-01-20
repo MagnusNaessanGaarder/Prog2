@@ -1,7 +1,8 @@
-package Oppgave1;
+package Oppgave1.replaceTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import Oppgave1.replace.ReplaceFirstTextCommand;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
