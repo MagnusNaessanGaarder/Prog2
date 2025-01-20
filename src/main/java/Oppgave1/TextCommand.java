@@ -1,5 +1,5 @@
 package Oppgave1;
 
-class interface TextCommand {
+interface TextCommand {
     String execute(String text);
 }

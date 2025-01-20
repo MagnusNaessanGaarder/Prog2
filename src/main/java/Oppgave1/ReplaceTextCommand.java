@@ -1,21 +1,24 @@
 package Oppgave1;
 
-import TextCommand;
-
-class replaceTextCommand implements TextCommand {
+class ReplaceTextCommand implements TextCommand {
     protected String target;
     protected String replacement;
 
-    public replaceTextCommand(String target, String replacement) {
+    public ReplaceTextCommand(String target, String replacement) {
         this.target = target;
         this.replacement = replacement;
     }
 
-    public void replaceTextCommand() {
-        textDocument.replaceText(text, newText);
+    public String getTarget() {
+        return target;
     }
 
-    public void undo() {
-        textDocument.replaceText(newText, text);
+    public String getReplacement() {
+        return replacement;
+    }
+
+    @Override
+    public String execute(String text) {
+        return "";
     }
 }
