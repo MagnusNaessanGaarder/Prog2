@@ -1,4 +1,6 @@
-package Oppgave1;
+package Oppgave1.capitalize;
+
+import Oppgave1.TextCommand;
 
 public class CapitalizeTextCommand implements TextCommand {
   @Override

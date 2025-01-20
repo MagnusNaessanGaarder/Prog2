@@ -1,4 +1,4 @@
-package Oppgave1;
+package Oppgave1.capitalize;
 
 public class CapitalizeSelectionTextCommand extends CapitalizeTextCommand{
   private String selection;
@@ -9,7 +9,7 @@ public class CapitalizeSelectionTextCommand extends CapitalizeTextCommand{
 
   @Override
   public String execute(String text) {
-    return text.replace(selection, super.execute(selection));
+    return text.trim().replace(selection, super.execute(selection));
   }
 
   public String getSelection() {

@@ -1,4 +1,4 @@
-package Oppgave1;
+package Oppgave1.capitalize;
 
 public class CapitalizeWordsTextCommands extends CapitalizeTextCommand {
   @Override
