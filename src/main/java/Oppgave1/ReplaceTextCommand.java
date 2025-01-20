@@ -18,7 +18,11 @@ class ReplaceTextCommand implements TextCommand {
     }
 
     @Override
-    public String execute(String text) {
-        return "";
+    public String execute(String text) throws Exception {
+        try{
+            return text.replace(target, replacement);
+        } catch (Exception e) {
+            throw new Exception("No such word as " + target + " in text: " + e.getMessage());
+        }
     }
 }
