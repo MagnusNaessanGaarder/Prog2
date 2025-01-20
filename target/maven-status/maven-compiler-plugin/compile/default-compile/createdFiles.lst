@@ -1,2 +1,9 @@
-Oppgave1\ReplaceTextCommand.class
+Oppgave1\CapitalizeSelectionTextCommand.class
+Oppgave1\CapitalizeWordsTextCommands.class
+Oppgave1\WrapTextCommand.class
 Oppgave1\TextCommand.class
+Oppgave1\WrapSelectionTextCommand.class
+Oppgave1\ReplaceTextCommand.class
+Oppgave1\WrapLinesTextCommand.class
+Oppgave1\CapitalizeTextCommand.class
+Oppgave1\ReplaceFirstTextCommand.class
