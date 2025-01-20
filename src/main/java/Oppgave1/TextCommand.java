@@ -1,5 +1,5 @@
 package Oppgave1;
 
-interface TextCommand {
+public interface TextCommand {
     String execute(String text) throws Exception;
 }
