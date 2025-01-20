@@ -1,4 +1,4 @@
-package Oppgave1;
+package Oppgave1.wrap;
 
 public class WrapSelectionTextCommand extends WrapTextCommand {
   private String selection;

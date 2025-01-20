@@ -1,4 +1,6 @@
-package Oppgave1;
+package Oppgave1.wrap;
+
+import Oppgave1.TextCommand;
 
 public class WrapTextCommand implements TextCommand {
   protected String opening;

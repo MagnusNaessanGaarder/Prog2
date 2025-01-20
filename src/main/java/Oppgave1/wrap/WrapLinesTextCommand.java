@@ -1,4 +1,4 @@
-package Oppgave1;
+package Oppgave1.wrap;
 
 public class WrapLinesTextCommand extends WrapTextCommand {
   public WrapLinesTextCommand(String opening, String end){

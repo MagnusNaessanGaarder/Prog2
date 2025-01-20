@@ -1,7 +1,8 @@
-package Oppgave1;
+package Oppgave1.wrapTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import Oppgave1.wrap.WrapSelectionTextCommand;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
